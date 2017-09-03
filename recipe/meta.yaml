@@ -1,6 +1,6 @@
 {% set name = "Mastodon.py" %}
 {% set version = "1.0.8" %}
-{% set compress_type = "tar.gz" %}
+{% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
 {% set hash = "d4efe41d2c058892fadb38ab255f1f7ba7a00b8b699b44c51616004fe0eada04" %}
 {% set build = 0 %}
@@ -10,8 +10,8 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ compress_type }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
+  fn: {{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
   {{ hash_type }}: {{ hash }}
 
 build:
@@ -22,11 +22,12 @@ requirements:
   build:
     - python
     - setuptools
+    - pytest-runner
 
   run:
     - python
     - requests
-    - dateutils
+    - dateutil
 
 test:
   imports:
