@@ -27,7 +27,7 @@ requirements:
   run:
     - python
     - requests
-    - dateutil
+    - python-dateutil
     - pytz
 
 test:
