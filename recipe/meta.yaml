@@ -20,12 +20,12 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
     - pytest-runner
 
   run:
-    - python
+    - python >=3.6
     - requests
     - python-dateutil
     - six
