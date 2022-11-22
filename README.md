@@ -14,12 +14,15 @@ Summary: Python wrapper for the Mastodon API
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/mastodon.py-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/mastodon.py-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/mastodon.py-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/mastodon.py-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mastodon.py/badges/version.svg)](https://anaconda.org/conda-forge/mastodon.py)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mastodon.py/badges/downloads.svg)](https://anaconda.org/conda-forge/mastodon.py)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mastodon.py-green.svg)](https://anaconda.org/conda-forge/mastodon.py) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mastodon.py.svg)](https://anaconda.org/conda-forge/mastodon.py) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mastodon.py.svg)](https://anaconda.org/conda-forge/mastodon.py) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mastodon.py.svg)](https://anaconda.org/conda-forge/mastodon.py) |
 
 Installing mastodon.py
 ======================
