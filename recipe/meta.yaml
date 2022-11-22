@@ -15,23 +15,23 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
     - pytest-runner
 
   run:
-    - python
+    - python >=3.6
     - requests
     - python-dateutil
     - six
     - pytz
     - decorator >=4.0.0
-    - http_ece >=1.0.5
+    - http-ece >=1.0.5
     - cryptography >=1.6.0
 
 test:
